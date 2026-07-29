@@ -45,7 +45,7 @@ button.mk.danger:hover { background:var(--danger-soft); }
 <body>
 <main>
 <h1>AI pop of the day 어드민</h1>
-<p class="sub">2026-07-29 기준. 원하는 작업을 고르면 아래 막대에서 GitHub로 제출할 수 있어요. 제출하면 오후 5시 발행이 자동으로 반영합니다(등록된 계정만). 관리자는 명령 복사로 즉시 실행할 수도 있어요.</p>
+<p class="sub">2026-07-30 호 후보입니다(전날 오후 5시에 미리 발행돼요). 원하는 작업을 고르면 아래 막대에서 GitHub로 제출할 수 있어요. 제출하면 오후 5시 발행이 자동으로 반영합니다(등록된 계정만). 관리자는 명령 복사로 즉시 실행할 수도 있어요.</p>
 
 <h2>1. 오늘의 후보 선별 (3개 선택)</h2>
 <label class="cand"><input type="checkbox" value="1"><span class="body"><strong>1. AI 기업들이 희귀 책 수백만 권을 사서 파쇄하고 있어요</strong><span class="srcline">Hacker News, 만화 적합 상</span><p>학습 데이터를 얻으려고 중개 서비스로 익명 대량 구매한 뒤 스캔하고 원본을 파쇄해요. 7월 21일 법원이 이 방식을 공정 이용으로 인정하면서 논란이 커졌습니다.</p><a href="https://www.yahoo.com/news/science/articles/ai-companies-anonymously-buying-destroying-214249784.html" target="_blank" rel="noopener">원문 ↗</a></span></label>
@@ -58,7 +58,7 @@ button.mk.danger:hover { background:var(--danger-soft); }
 <p class="hint">3개를 고르고 GitHub로 제출하면 끝. 오후 5시까지 제출이 없으면 화제성 상위 3건이 자동 발행됩니다.</p>
 
 <h2>2. 발행된 호 관리 (수정, 삭제 요청)</h2>
-<div class="issue"><div class="ihead"><strong>2026-07-29</strong><span>교수의 보이지 않는 함정에 AI로 베낀 학생 32명이 걸렸어요, 세계 최대 오픈 가중치 모델 Kimi-K3를 누구나 내려받게 됐어요, AI 에이전트 64개가 53만 줄 코드를 11일 만에 옮겼어요</span></div><div class="row"><input type="text" data-for="2026-07-29" placeholder="수정 지시 (예: 만화 4컷 대사를 더 짧게)"><button class="mk" data-edit="2026-07-29">수정 명령</button><button class="mk danger" data-del="2026-07-29">삭제 명령</button></div></div>
+<div class="issue"><div class="ihead"><strong>2026-07-29</strong><span>교수의 보이지 않는 함정에 AI로 베낀 학생 32명이 걸렸어요, 세계 최대 오픈 가중치 모델 Kimi-K3를 누구나 내려받게 됐어요, AI 에이전트 64개가 53만 줄 코드를 11일 만에 옮겼어요</span></div><div class="row"><input type="text" data-for="2026-07-29" placeholder="수정 지시 (예: 만화 4컷 대사를 더 짧게)"><button class="mk" data-edit="2026-07-29">수정 요청</button><button class="mk danger" data-del="2026-07-29">삭제 요청</button></div></div>
 <p class="hint">수정과 삭제는 요청으로 접수되며 자동 실행되지 않아요. 관리자가 확인 후 처리합니다.</p>
 
 <h2>3. 오늘 호 다시 만들기 요청</h2>
@@ -73,7 +73,7 @@ button.mk.danger:hover { background:var(--danger-soft); }
 </div>
 
 <script>
-var DATE='2026-07-29',REPO='jsonpassion/ai-news-admin';
+var DATE='2026-07-30',REPO='jsonpassion/ai-news-admin';
 var cur=null;
 var alabel=document.getElementById('alabel'),gh=document.getElementById('gh'),cp=document.getElementById('cp'),ok=document.getElementById('ok');
 function setAction(label,issueTitle,issueBody,cmd){
